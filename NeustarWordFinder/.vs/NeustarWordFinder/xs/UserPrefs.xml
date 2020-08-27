@@ -1,5 +1,8 @@
 ﻿<Properties StartupConfiguration="{A8CFF24C-1212-4E75-B403-C4D3FE703CA2}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="NeustarWordFinder/Program.cs">
+    <Files>
+      <File FileName="NeustarWordFinder/Program.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">

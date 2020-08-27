@@ -23,14 +23,14 @@ namespace NeustarWordFinder
 
         private static bool CheckIfExistsInArray(string word, char[,] array)
         {
-            if(word.Length != 3)
+            if(word.Length != array.GetLength(0))
             {
                 return false;
             }
-            for (var dimensionPointer = 0; dimensionPointer <= 2; dimensionPointer++)
+            for (var dimensionPointer = 0; dimensionPointer <= array.GetLength(0) - 1; dimensionPointer++)
             {
                 var partialMatch = true;
-                for (var pointer = 0; pointer <= 2; pointer++)
+                for (var pointer = 0; pointer <= array.GetLength(0) - 1; pointer++)
                 {
                     if (word[pointer] != array[dimensionPointer,pointer])
                     {
@@ -43,9 +43,9 @@ namespace NeustarWordFinder
                 }
 
                 partialMatch = true;
-                for (var pointer = 2; pointer >= 0; pointer--)
+                for (var pointer = array.GetLength(0) - 1; pointer >= 0; pointer--)
                 {
-                    if (word[pointer] != array[dimensionPointer,2 - pointer])
+                    if (word[pointer] != array[dimensionPointer, array.GetLength(0) - 1 - pointer])
                     {
                         partialMatch = false;
                     }
@@ -57,10 +57,10 @@ namespace NeustarWordFinder
             }
 
 
-            for (var dimensionPointer = 0; dimensionPointer <= 2; dimensionPointer++)
+            for (var dimensionPointer = 0; dimensionPointer <= array.GetLength(1) - 1; dimensionPointer++)
             {
                 var partialMatch = true;
-                for (var pointer = 0; pointer <= 2; pointer++)
+                for (var pointer = 0; pointer <= array.GetLength(1) - 1; pointer++)
                 {
                     if (word[pointer] != array[pointer,dimensionPointer])
                     {
@@ -73,9 +73,9 @@ namespace NeustarWordFinder
                 }
 
                 partialMatch = true;
-                for (var pointer = 2; pointer >= 0; pointer--)
+                for (var pointer = array.GetLength(1) - 1; pointer >= 0; pointer--)
                 {
-                    if (word[pointer] != array[2 - pointer,dimensionPointer])
+                    if (word[pointer] != array[array.GetLength(1) - 1 - pointer,dimensionPointer])
                     {
                         partialMatch = false;
                     }

@@ -1,0 +1,12 @@
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/bin/Debug/netcoreapp3.1/NeustarWordFinder.deps.json
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/bin/Debug/netcoreapp3.1/NeustarWordFinder.runtimeconfig.json
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/bin/Debug/netcoreapp3.1/NeustarWordFinder.runtimeconfig.dev.json
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/bin/Debug/netcoreapp3.1/NeustarWordFinder.dll
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/bin/Debug/netcoreapp3.1/NeustarWordFinder.pdb
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/obj/Debug/netcoreapp3.1/NeustarWordFinder.csprojAssemblyReference.cache
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/obj/Debug/netcoreapp3.1/NeustarWordFinder.AssemblyInfoInputs.cache
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/obj/Debug/netcoreapp3.1/NeustarWordFinder.AssemblyInfo.cs
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/obj/Debug/netcoreapp3.1/NeustarWordFinder.csproj.CoreCompileInputs.cache
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/obj/Debug/netcoreapp3.1/NeustarWordFinder.dll
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/obj/Debug/netcoreapp3.1/NeustarWordFinder.pdb
+/Users/sergioflores/Documentos/NeustarWordFinder/NeustarWordFinder/NeustarWordFinder/obj/Debug/netcoreapp3.1/NeustarWordFinder.genruntimeconfig.cache
